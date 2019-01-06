@@ -1,0 +1,11 @@
+Binaries/
+Intermediate/
+Saved/
+Content/StarterContent/
+Content/Res/
+SlAiCourse.VC*
+Content/
+Config/
+SlAiCourse.sln
+SlAiCourse.uproject
+.vs/
