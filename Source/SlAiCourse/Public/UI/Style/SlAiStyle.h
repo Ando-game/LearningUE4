@@ -8,7 +8,7 @@
 /**
  * 
  */
-class SLAICOURSEV2_API SlAiStyle
+class SLAICOURSE_API SlAiStyle
 {
 public:
 	static void Initialze();//初始化
