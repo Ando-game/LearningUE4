@@ -13,5 +13,8 @@ UCLASS()
 class SLAICOURSE_API ASlAiMenuGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public:
+	ASlAiMenuGameMode();
 	
 };

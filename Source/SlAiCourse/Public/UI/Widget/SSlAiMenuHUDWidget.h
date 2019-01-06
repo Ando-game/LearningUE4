@@ -17,4 +17,9 @@ public:
 
 	/** Constructs this widget with InArgs */
 	void Construct(const FArguments& InArgs);
+
+private:
+	//获取Menu样式指针
+	const struct FSlAiMenuStyle * MenuStyle;//MenuStyle这个指针对应的就是在编辑器中用蓝图继承于这个样式的资源的指针
+
 };

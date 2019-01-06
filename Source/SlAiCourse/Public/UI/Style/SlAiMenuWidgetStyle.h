@@ -6,6 +6,8 @@
 #include "Styling/SlateWidgetStyle.h"
 #include "SlateWidgetStyleContainerBase.h"
 
+#include "SlateBrush.h"
+
 #include "SlAiMenuWidgetStyle.generated.h"
 
 /**
@@ -24,6 +26,10 @@ struct SLAICOURSE_API FSlAiMenuStyle : public FSlateWidgetStyle
 	static const FName TypeName;
 	virtual const FName GetTypeName() const override { return TypeName; };
 	static const FSlAiMenuStyle& GetDefault();
+
+	//定义一个笔刷样式
+	UPROPERTY(EditAnywhere, Category = MenuHUD)
+		FSlateBrush MenuHUDBackgroundBrush;
 };
 
 /**
